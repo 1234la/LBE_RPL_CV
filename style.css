@@ -79,7 +79,7 @@ nav.menu ul a:hover {
 }
 
 .sidebar .widget:hover {
-	border-bottom: 5px solid #3498db;
+	border-bottom: 6px solid #3498db;
 }
 
 .sidebar .widget h2 {
@@ -126,6 +126,23 @@ nav.menu ul a:hover {
 
 .content {
 	float: left;
+	transition: all 0.5s ease;
+}
+
+.content #data:hover {
+	border-bottom: 6px solid #6e4b8b;
+}
+
+.content #pendidikan:hover {
+	border-bottom: 6px solid #856580;
+}
+
+.content #pengalaman:hover {
+	border-bottom: 6px solid #3498db;
+}
+
+.content #keahlian:hover {
+	border-bottom: 6px solid #1abf9f;
 }
 
 #data {
@@ -134,8 +151,6 @@ nav.menu ul a:hover {
 	margin: 25px auto;
 	background: #fff;
 	border: 1px solid #dedede;
-	border-bottom: 6px solid #6e4b8b;
-	transition: all 0.5s ease;
 	-webkit-box-shadow: 1px 1px 1px 0px rgba(204, 204, 204, 0.35);
 	-moz-box-shadow: 1px 1px 1px 0px rgba(204, 204, 204, 0.35);
 	box-shadow: 1px 1px 1px 0px rgba(204, 204, 204, 0.35);
@@ -147,8 +162,6 @@ nav.menu ul a:hover {
 	margin: 25px auto;
 	background: #fff;
 	border: 1px solid #dedede;
-	border-bottom: 6px solid #795975;
-	transition: all 0.5s ease;
 	-webkit-box-shadow: 1px 1px 1px 0px rgba(204, 204, 204, 0.35);
 	-moz-box-shadow: 1px 1px 1px 0px rgba(204, 204, 204, 0.35);
 	box-shadow: 1px 1px 1px 0px rgba(204, 204, 204, 0.35);
@@ -160,8 +173,6 @@ nav.menu ul a:hover {
 	margin: 25px auto;
 	background: #fff;
 	border: 1px solid #dedede;
-	border-bottom: 6px solid #3498db;
-	transition: all 0.5s ease;
 	-webkit-box-shadow: 1px 1px 1px 0px rgba(204, 204, 204, 0.35);
 	-moz-box-shadow: 1px 1px 1px 0px rgba(204, 204, 204, 0.35);
 	box-shadow: 1px 1px 1px 0px rgba(204, 204, 204, 0.35);
@@ -173,8 +184,6 @@ nav.menu ul a:hover {
 	margin: 25px auto;
 	background: #fff;
 	border: 1px solid #dedede;
-	border-bottom: 6px solid #1abf9f;
-	transition: all 0.5s ease;
 	-webkit-box-shadow: 1px 1px 1px 0px rgba(204, 204, 204, 0.35);
 	-moz-box-shadow: 1px 1px 1px 0px rgba(204, 204, 204, 0.35);
 	box-shadow: 1px 1px 1px 0px rgba(204, 204, 204, 0.35);
@@ -183,22 +192,6 @@ nav.menu ul a:hover {
 html {
 	scroll-behavior: smooth;
 }
-
-.content p:last-child {
-	margin: 0;
-}
-
-.content .continue-lendo {
-	color: #000;
-	transition: all 0.5s ease;
-	text-decoration: none;
-	font-weight: 700;
-}
-
-.content .continue-lendo:hover {
-	margin-left: 10px;
-}
-
 
 @media screen and (max-width: 960px) {
 
